@@ -12,6 +12,7 @@
       </p>
       <p id="demo">
       </p>
+      <!-- 下一行打一个断点试一下dom中js断点 -->
       <button type="button" onclick="actions()">
        What can you do?
       </button>
@@ -23,6 +24,9 @@
         return x+y
     }
     function TestFunc(z){
+      // 打断点试一下查看变量
+        let mm = 2
+      // 打断点试一下步入步出
         let c = TestEval(1, 2)
         return z + c
     }
